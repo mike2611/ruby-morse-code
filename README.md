@@ -1,35 +1,49 @@
 # Ruby::Morse::Code
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/ruby/morse/code`. To experiment with that code, run `bin/console` for an interactive prompt.
+![](https://img.shields.io/badge/Microverse-blueviolet)
 
-TODO: Delete this and the text above, and describe your gem
+This is a microverse curriculum project for working with ruby to create a function that will turn morse code into actual sentences.
 
-## Installation
+## Built With
 
-Add this line to your application's Gemfile:
+- Ruby
 
-```ruby
-gem 'ruby-morse-code'
-```
+## Getting Started
 
-And then execute:
+- Clone the repository with `git clone` https://github.com/mike2611/ruby-morse-code;
+- Open the cloned folder on the IDE of your choice;
+- Install dependencies with `bundle i`;
+- Copy decoder.rb code into irb;
+- then use the method decode_sentence(code_sentence) to decode your morse code;
+## Authors
 
-    $ bundle install
+👤 **Dyary Raoof Bayz**
 
-Or install it yourself as:
+- GitHub: [@DyaryRaoof](https://github.com/DyaryRaoof)
+- Twitter: [@DyaryRaoof](https://twitter.com/DyaryRaoof)
+- LinkedIn: [@DyaryRaoof](https://linkedin.com/in/DyaryRaoof)
 
-    $ gem install ruby-morse-code
+👤 **Miguel Angel Puentes**
+- GitHub: [@mike2611](https://github.com/mike2611)
+- Twitter: [@MiguelP2611](https://twitter.com/MiguelP2611)
+- LinkedIn: [Miguel Puentes Mata](https://linkedin.com/in/miguel-puentes-mata-90a562139/)
 
-## Usage
 
-TODO: Write usage instructions here
+## 🤝 Contributing
 
-## Development
+Contributions, issues, and feature requests are welcome!
 
-After checking out the repo, run `bin/setup` to install dependencies. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
+Feel free to check the [issues page](../../issues/).
 
-To install this gem onto your local machine, run `bundle exec rake install`. To release a new version, update the version number in `version.rb`, and then run `bundle exec rake release`, which will create a git tag for the version, push git commits and the created tag, and push the `.gem` file to [rubygems.org](https://rubygems.org).
+## Show your support
 
-## Contributing
+Give a ⭐️ if you like this project!
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/ruby-morse-code.
+## Acknowledgments
+
+- Hat tip to anyone whose code was used
+- Microverse
+
+## 📝 License
+
+This project is [MIT](./MIT.md) licensed.
