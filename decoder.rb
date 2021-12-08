@@ -12,14 +12,14 @@ def decode_char_set(code_chars)
   code_chars.each do |code_char|
     char_set += decoder(code_char)
   end
-  return char_set
+  char_set
 end
 
 def decode_sentence(code_sentence)
   code_sentence = code_sentence.split('   ')
   sentence = ''
   code_sentence.each do |code_word|
-    sentence += decode_char_set(code_word) + ' '
+    sentence += "#{decode_char_set(code_word)} "
   end
-  return sentence
+  sentence
 end
