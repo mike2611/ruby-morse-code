@@ -1,8 +1,3 @@
-PATH
-  remote: .
-  specs:
-    ruby-morse-code (0.1.0)
-
 GEM
   remote: https://rubygems.org/
   specs:
@@ -35,7 +30,6 @@ PLATFORMS
 DEPENDENCIES
   rake (~> 13.0)
   rubocop (>= 1.0, < 2.0)
-  ruby-morse-code!
 
 BUNDLED WITH
    2.2.20
